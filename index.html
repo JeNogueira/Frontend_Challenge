@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Jefferson Nogueira  | UNIFOR - 2312642</title>
+
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(93, 83%, 49%); }
+  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<main>
+  
+     <div class="box-container"  id="feedback-box">
+      <div class="img-container">
+        <img src="images/icon-star.svg" class="star-icon">
+      </div>
+
+      <h2>Avalie-nos!</h2>
+      <p> Como você avalia o nosso atendimento? </p>
+
+      <div class="rating-btn-container">
+        <button class="rating-btn" id="1" aria-selected="false" role="button">1</button>
+        <button class="rating-btn" id="2" aria-selected="false" role="button">2</button>
+        <button class="rating-btn" id="3" aria-selected="false" role="button">3</button>
+        <button class="rating-btn" id="4" aria-selected="false" role="button">4 </button>
+        <button class="rating-btn" id="5" aria-selected="false" role="button">5 </button>
+
+      </div> 
+
+      <button class="submit-btn" id="submit"> Enviar</button>
+ 
+    </div>
+
+    <div hidden class="box-container thank-you-container"  id="thank-you-box">
+      
+         <img src="images/illustration-thank-you.svg">
+         <p class="rating-result">Você selecionou <span id="selected-rating">0</span> de 5 </p>
+
+         <h2>Obrigado!</h2>
+         <p>Agradecemos por dedicar seu tempo para avaliar. Se você precisar de mais suporte,
+          não hesite em contactar!</p>
+
+    </div>
+
+</main>
+ 
+  <div class="attribution">  Jefferson Nogueira  | UNIFOR - 2312642 </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
